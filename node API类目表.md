@@ -1,0 +1,54 @@
+# node API类目表
+- 异步操作
+	- [async](https://github.com/caolan/async)(可前端) 各种模式的组合异步操作
+- 文件操作
+	- native fs 基本的文件操作
+	- [node-temp](https://github.com/bruce/node-temp) 管理临时文件
+- 单元测试
+	- native assert 断言操作
+- 二进制数据处理
+	- native buffer
+- 进程
+	- native cluster node再多核处理器上运行
+	- native child_process 子进程处理
+	- native process 进程处理
+- C/C++
+	- addones 与C/C++集成
+- 控制台
+	- native console 控制台输出
+	- native readline 控制台输入
+- 安全
+	- native crypto 安全认证相关
+	- native OpenSSL TLS
+- 调试开发
+	- native debugger 方便调试node
+	- native repl 提供node的REPL功能
+- 计算机网络
+	- native dns DNS处理
+	- native domain 域名监听????
+	- native http HTTP服务器和客户端
+	- native https HTTPS服务器和客户端
+	- native net TCP接口
+	- native dgram UDP接口
+- 事件处理
+	- native events 提供事件处理模型
+- 字符串处理
+	- native path 文件路径字符串操作
+	- native punycode ???
+	- native querystring 处理query string
+	- native string_decoder 编码转换
+	- native url URL的字符串操作
+- 模块系统
+	- native module node的模块系统
+- 操作系统
+	- native os 返回操作系统的相关参数
+- 代码运行
+	- native vm 执行JS代码
+- 流
+	- native stream 流式数据处理
+- 定时器
+	- native timer 包含一系列方法
+- 解压缩
+	- native zlib 压缩,解压缩操作
+- 集成工具
+	- native util 
