@@ -1,11 +1,11 @@
 # node API类目表
 - 异步操作
-	- [async](https://github.com/caolan/async)(可前端) 各种模式的组合异步操作
+	- [async](https://github.com/caolan/async) 各种模式的异步操作
+	- [deferred](https://github.com/medikoo/deferred) Deferred实现
 - 文件操作
 	- native fs 基本的文件操作
-	- [node-temp](https://github.com/bruce/node-temp) 管理临时文件
-- 单元测试
-	- native assert 断言操作
+	- [temp](https://github.com/bruce/node-temp) 临时文件
+	- [watch](https://github.com/mikeal/watch) 文件树监听
 - 二进制数据处理
 	- native buffer
 - 进程
@@ -23,6 +23,9 @@
 - 调试开发
 	- native debugger 方便调试node
 	- native repl 提供node的REPL功能
+- 测试
+	- native assert 断言操作
+	- [mocha](https://github.com/mochajs/mocha) 单元测试框架
 - 计算机网络
 	- native dns DNS处理
 	- native domain 域名监听????
@@ -50,5 +53,5 @@
 	- native timer 包含一系列方法
 - 解压缩
 	- native zlib 压缩,解压缩操作
-- 集成工具
+- 工具方法
 	- native util 
