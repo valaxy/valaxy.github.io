@@ -6,6 +6,7 @@
 	- native fs 基本的文件操作
 	- [temp](https://github.com/bruce/node-temp) 临时文件
 	- [watch](https://github.com/mikeal/watch) 文件树监听
+	- [trash](https://github.com/sindresorhus/trash) 文件放入回收站操作
 - 二进制数据处理
 	- native buffer
 - 进程
@@ -20,6 +21,8 @@
 - 安全
 	- native crypto 安全认证相关
 	- native OpenSSL TLS
+- 编译
+	- [acorn](https://github.com/marijnh/acorn) 一个js编译器
 - 调试开发
 	- native debugger 方便调试node
 	- native repl 提供node的REPL功能
