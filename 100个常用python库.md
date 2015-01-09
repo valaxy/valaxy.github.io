@@ -1,0 +1,35 @@
+> Python3的常用模块
+
+- 字符串处理
+	- **re** 正则表达式
+	- **difflib** 字符串比较算法
+	- **textwrap** 字符串二次处理
+	- **unicodedata** unicode字符处理
+	- **stringprep** 处理RFC3454定义的字符串
+- 输入输出
+	- **readline** GNU readline 接口
+	- **rlcompleter** Completion function for GNU readline
+- 二进制数据处理
+	- **struct** 二进制结构
+	- **codes** 编码解码
+- 日期时间
+	- **datetime** 基本
+	- **calendar** 日历
+- 数学
+	- **math** 一些数学方法
+	- **cmath** 复数的数学方法
+	- **decimal** 小数的高精度处理
+	- **fractions** 小数
+	- **random** 随机数
+	- **statistics** 统计算法
+- 文件操作
+	- **pathlib** 文件系统路径
+	- **csv** csv格式的文件
+	- **configparser** ini的文件
+	- **netrc** netrc文件(常见Unix ftp程序)
+	- **xdrlib** 处理RFC1014中描述的文件
+	- **plistlib** 处理property list文件(Mac OS X)
+- 浏览器
+	- **webbrowser** 浏览器操作
+	- **cgi**
+	- **ftplib** 实现了FTP协议
