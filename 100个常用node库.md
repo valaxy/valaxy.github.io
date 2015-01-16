@@ -23,6 +23,7 @@
 	- native OpenSSL TLS
 - 编译
 	- [acorn](https://github.com/marijnh/acorn) 一个js编译器
+	- [node-gyp](https://github.com/TooTallNate/node-gyp) native addon build tool
 - 调试开发
 	- native debugger 方便调试node
 	- native repl 提供node的REPL功能
