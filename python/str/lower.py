@@ -1,0 +1,2 @@
+
+assert('ABC'.lower() == 'abc')
