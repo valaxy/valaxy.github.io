@@ -3,59 +3,71 @@
 	- [async](https://github.com/caolan/async) 各种模式的异步操作
 	- [deferred](https://github.com/medikoo/deferred) Deferred实现
 - 文件操作
-	- native fs 基本的文件操作
+	- fs 基本的文件操作
 	- [temp](https://github.com/bruce/node-temp) 临时文件
 	- [watch](https://github.com/mikeal/watch) 文件树监听
 	- [trash](https://github.com/sindresorhus/trash) 文件放入回收站操作
 - 二进制数据处理
-	- native buffer
+	- buffer
 - 进程
-	- native cluster node再多核处理器上运行
-	- native child_process 子进程处理
-	- native process 进程处理
+	- cluster node再多核处理器上运行
+	- child_process 子进程处理
+	- process 进程处理
 - C/C++
 	- addones 与C/C++集成
-- 控制台
-	- native console 控制台输出
-	- native readline 控制台输入
+- 控制台/日志
+	- console 控制台输出
+	- readline 控制台输入
+	- [winston](https://github.com/winstonjs/winston) 偏重于对多个log的管理
+	- [colors](https://github.com/Marak/colors.js) 控制台输出带上颜色
 - 安全
-	- native crypto 安全认证相关
-	- native OpenSSL TLS
+	- crypto 安全认证相关
+	- OpenSSL TLS
 - 编译
 	- [acorn](https://github.com/marijnh/acorn) 一个js编译器
-	- [node-gyp](https://github.com/TooTallNate/node-gyp) native addon build tool
+	- [node-gyp](https://github.com/TooTallNate/node-gyp) addon build tool
 - 调试开发
-	- native debugger 方便调试node
-	- native repl 提供node的REPL功能
+	- debugger 方便调试node
+	- repl 提供node的REPL功能
 - 测试
-	- native assert 断言操作
+	- assert 断言操作
 	- [mocha](https://github.com/mochajs/mocha) 单元测试框架
 - 计算机网络
-	- native dns DNS处理
-	- native domain 域名监听????
-	- native http HTTP服务器和客户端
-	- native https HTTPS服务器和客户端
-	- native net TCP接口
-	- native dgram UDP接口
+	- 应用层
+		- http HTTP服务器和客户端
+        - https HTTPS服务器和客户端
+        - [ws](https://github.com/websockets/ws) websocket
+        - [express](https://github.com/strongloop/express) web服务框架
+        	- [express-ws](https://github.com/HenningM/express-ws) websocket的中间件
+	- dns DNS处理
+	- domain 域名监听????
+
+	- net TCP接口
+	- dgram UDP接口
+
 - 事件处理
-	- native events 提供事件处理模型
+	- events 提供事件处理模型
 - 字符串处理
-	- native path 文件路径字符串操作
-	- native punycode ???
-	- native querystring 处理query string
-	- native string_decoder 编码转换
-	- native url URL的字符串操作
+	- path 文件路径字符串操作
+	- punycode ???
+	- querystring 处理query string
+	- string_decoder 编码转换
+	- url URL的字符串操作
+	- [js-base64](https://github.com/dankogai/js-base64) BASE64编码
 - 模块系统
-	- native module node的模块系统
+	- module node的模块系统
 - 操作系统
-	- native os 返回操作系统的相关参数
+	- os 返回操作系统的相关参数
 - 代码运行
-	- native vm 执行JS代码
+	- vm 执行JS代码
 - 流
-	- native stream 流式数据处理
+	- stream 流式数据处理
 - 定时器
-	- native timer 包含一系列方法
+	- timer 包含一系列方法
 - 解压缩
-	- native zlib 压缩,解压缩操作
+	- zlib 压缩,解压缩操作
 - 工具方法
-	- native util 
+	- util 
+- 时间/日期处理
+	- Date
+	- [moment](https://github.com/moment/moment) 更好用
