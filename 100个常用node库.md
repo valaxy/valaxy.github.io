@@ -20,6 +20,7 @@
 	- readline 控制台输入
 	- [winston](https://github.com/winstonjs/winston) 偏重于对多个log的管理
 	- [colors](https://github.com/Marak/colors.js) 控制台输出带上颜色
+	- [ansi-styles](https://github.com/chalk/ansi-styles) 关于ansi escape code的操作, 值得好好学习
 - 安全
 	- crypto 安全认证相关
 	- OpenSSL TLS
